@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+    <header>
+        <h2>Subang<h2>
+      </header>
+      
+      <section>
+        <nav>
+          <ul>
+            <li><a href="layout.html">Pangandaran</a></li>
+            <li><a href="layout2.html">subang</a></li>
+            <li><a href="layout3.html">Yogyakarta</a></li>
+          </ul>
+        </nav>
+      
+          <img src="Pondok Bali.jpg" alt="" width="50%">
+        <article>
+          <h1>Pantai pondok bali</h1>
+          <p>Pantai Pondok Bali, yang berlokasi di Subang.
+            Meskipun memiliki nama Bali, objek wisata ini tidak ada kaitannya dengan pantai yang ada di Pulau Bali.
+             Meski demikian, keindahannya tak kalah dengan pantai yang ada di Pulau Dewata tersebut.
+          </p>
+          <p>Objek wisata ini mengingatkan pada keindahan pantai di Bali. Betapa tidak,
+             pasirnya yang putih kecoklatan mendominasi seluruh tepian pantai. Menghampar luas seperti karpet lembut yang menawan. 
+             Dan sangat menyenangkan memijakkan kaki di atasnya, merasakan butiran lembutnya menyelimuti kaki.
+
+            Tepian pantai begitu lebar, tidak terhalangi oleh batuan karang. Hanya beberapa batu yang bertumpuk seperti menjadi pagar pembatas.
+             Antara air laut dengan wilayah daratan. Namun, hanya di sebagian tempat saja yang memiliki area batuan ini.</p>
+        </article>
+      </section>
+      
+      <footer>
+        <p>MAKASIH</p>
+      </footer>
+      </body>
+      </html>
